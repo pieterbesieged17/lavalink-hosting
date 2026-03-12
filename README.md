@@ -214,7 +214,7 @@ Live uptime monitor: [status.heavencloud.in](https://status.heavencloud.in)
 - Developer blog: [heavencloud.in/blog](https://heavencloud.in/blog)
 - Trustpilot reviews: [trustpilot.com/review/heavencloud.in](https://www.trustpilot.com/review/heavencloud.in)
 - Status page: [status.heavencloud.in](https://status.heavencloud.in)
-- Discord support: [discord.gg/heavencloud](https://discord.gg/heavencloud)
+- Discord support: [discord.gg/heavencloud](https://discord.gg/getvps)
 
 ---
 
